@@ -152,6 +152,14 @@ en:
       create: Create %{model}
       submit: Save %{model}
       update: Update %{model}
+    page_entries_info:
+      one_page:
+        display_entries:
+          zero: "No %{entry_name} found"
+          one: "Displaying <b>1</b> %{entry_name}"
+          other: "Displaying <b>all %{count}</b> %{entry_name}"
+      more_pages:
+        display_entries: "Displaying %{entry_name} <b>%{first}–%{last}</b> of <b>%{total}</b> in total"
   number:
     currency:
       format:
@@ -228,6 +236,12 @@ en:
       title_edit: "Editing %{name}"
       error: error
       validation_error: "%{errors} prohibited this %{name} from being saved"
+    pagination:
+      first: "&laquo; First"
+      last: "Last &raquo;"
+      previous: "&lsaquo; Prev"
+      next: "Next &rsaquo;"
+      truncate: "&hellip;"
   controllers:
     common:
       notice_create: "%{name} was successfully created."
