@@ -181,3 +181,9 @@ ja:
       long: "%Y/%m/%d %H:%M"
       short: "%m/%d %H:%M"
     pm: 午後
+
+  defaults:
+    flash_message:
+      created: "%{item}を作成しました"
+      updated: "%{item}を更新しました"
+      destroyed: "%{item}を削除しました"

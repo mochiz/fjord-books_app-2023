@@ -9,3 +9,20 @@ en:
         memo: Memo #g
         picture: Picture #g
         title: Title #g
+
+  books:
+    index:
+      title: Books
+      link_to_show: Show this book
+      link_to_new: New book
+    show:
+      link_to_edit: Edit this book
+      link_to_index: Back to books
+      button_to_destroy: Destroy this book
+    new:
+      title: New book
+      link_to_index: Back to books
+    edit:
+      title: Editing book
+      link_to_show: Show this book
+      link_to_index: Back to books
