@@ -16,8 +16,8 @@
         <%= link_to t("views.common.sign_out"), destroy_user_session_path, data: { turbo_method: :delete } %>
       </header>
     <% end %>
-    <p class="notice" style="color: green"><%= notice %></p>
-    <p class="alert" style="color: red"><%= alert %></p>
+    <p style="color: green"><%= notice %></p>
+    <p style="color: red"><%= alert %></p>
     <%= yield %>
   </body>
 </html>
