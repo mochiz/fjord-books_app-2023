@@ -42,7 +42,7 @@ class ReportsController < ApplicationController
   private
 
   def set_report
-    @report = Report.find(params[:id])
+    @report = Report.includes(comments: :user).find(params[:id])
   end
 
   def report_params
