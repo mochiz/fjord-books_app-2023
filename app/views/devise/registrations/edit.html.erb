@@ -10,17 +10,17 @@
 
   <div class="field">
     <%= f.label :zip_code %><br />
-    <%= f.text_field :zip_code, autofocus: true %>
+    <%= f.text_field :zip_code %>
   </div>
 
   <div class="field">
     <%= f.label :address %><br />
-    <%= f.text_field :address, autofocus: true %>
+    <%= f.text_field :address %>
   </div>
 
   <div class="field">
     <%= f.label :profile %><br />
-    <%= f.text_area :profile, autofocus: true, row: 5 %>
+    <%= f.text_area :profile, row: 5 %>
   </div>
 
   <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
