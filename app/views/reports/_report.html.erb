@@ -13,4 +13,9 @@
     <strong><%= Report.human_attribute_name(:user) %>:</strong>
     <%= report.user.name %>
   </p>
+
+  <p>
+    <strong><%= Report.human_attribute_name(:created_date) %>:</strong>
+    <%= l report.created_at.to_date %>
+  </p>
 </div>

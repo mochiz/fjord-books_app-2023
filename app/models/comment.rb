@@ -3,4 +3,8 @@
 class Comment < ApplicationRecord
   belongs_to :commentable, polymorphic: true
   belongs_to :user
+
+  def created_by?(target_user)
+    user == target_user
+  end
 end

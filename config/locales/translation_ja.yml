@@ -21,7 +21,9 @@ ja:
       report:
         title: タイトル
         body: 本文
-        user: 作成者
+        user: 投稿者
+        created_date: 投稿日
       comment:
         body: 本文
-        user: 作成者
+        user: 投稿者
+        created_at: 投稿日時

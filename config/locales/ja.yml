@@ -209,7 +209,6 @@ ja:
       notice_create: "%{name}が作成されました。"
       notice_update: "%{name}が更新されました。"
       notice_destroy: "%{name}が削除されました。"
-      alert_error: "不正な操作です。"
   layouts:
     application:
       menu: メニュー
