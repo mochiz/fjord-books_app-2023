@@ -22,7 +22,7 @@ ja:
         title: タイトル
         body: 本文
         user: 投稿者
-        created_date: 投稿日
+        created_on: 投稿日
       comment:
         body: 本文
         user: 投稿者

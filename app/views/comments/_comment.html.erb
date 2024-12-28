@@ -6,7 +6,7 @@
 
   <p>
     <strong><%= Comment.human_attribute_name(:user) %>:</strong>
-    <%= comment.user.display_name %>
+    <%= comment.user.name_or_email %>
   </p>
 
   <p>
