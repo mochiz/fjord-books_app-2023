@@ -7,12 +7,8 @@ module Reports
     def create
       comment = @report.comments.new(comment_params)
       comment.user = current_user
-
-      if comment.save
-        redirect_to @report, notice: t('controllers.common.notice_create', name: Comment.model_name.human)
-      else
-        redirect_to @report, status: :unprocessable_entity
-      end
+      comment.save
+      redirect_to @report, notice: t('controllers.common.notice_create', name: Comment.model_name.human)
     end
 
     def destroy
